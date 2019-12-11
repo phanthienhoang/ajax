@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Autonomy by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+	<title>Project Javascript</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
+		type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<!-- <script src="js/skel-panels.min.js"></script> -->
+	<script src="js/init.js"></script>
+	<script src="javascript/tattoo.js"></script>
+	<script src="javascript/login.js"></script>
+	<script src="javascript/pageload.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+	</noscript>
+</head>
+<body class="homepage">
+	<div id="header">
+		<div class="container">
+			<div id="logo">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					Manage
+				</button>
+				<div class="modal" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">Login</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<form id ='login-form'>
+									<div style="text-align: center" id='message'></div>
+							<div class="modal-body">
+									<div class="form-group" >
+										<div for="exampleInputEmail1">Email address</div>
+										<input type="email" class="form-control" id="email"
+											aria-describedby="emailHelp" placeholder="Enter email" required>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1">Password</label>
+										<input type="password" class="form-control" id="password"
+											placeholder="Password" required>
+									</div>
+									<button type="submit" value="Login" class="btn btn-primary">Login</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li class="active"><a href="index.html">Homepage</a></li>
+					<li><a href="twocolumn1.html">Left Sidebar</a></li>
+					<li><a href="twocolumn2.html">Right Sidebar</a></li>
+					<li><a href="onecolumn.html">Cotent</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="banner">&nbsp;</div>
+	<div id="featured">
+		<div class="container">
+			<div id='name' class="row">
+				<!-- đẩy giữ liệu ảnh qua id='name' -->
+			</div>
+		</div>
+		<!-- <div class="container">
+			<ul class="pagination">
+				<li class="page-item"><a class="page-link" id='pre' onclick="plusPag(-1)" title="Previous"></a>Previous</a></li>
+				<li class="page-item"><a onclick="currentPag(1)" class="page-link" title="1"></a>3</a></li>
+				<li class="page-item"><a onclick="currentPag(2)" class="page-link"  title="2"></a>3</a></li>
+				<li class="page-item"><a onclick="currentPag(3)" class="page-link" title="3"></a>3</a></li>
+				<li class="page-item"><a  class="page-link" id='next' onclick="plusPag( +1)"  title="Next"></a>Next</a></li>
+			</ul>
+		</div> -->
+		<div class="container">
+				<h2>Pagination</h2>         
+				<ul class="pagination">
+				  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+				  <li class="page-item"><a class="page-link" href="#">1</a></li>
+				  <li class="page-item"><a class="page-link" href="#">2</a></li>
+				  <li class="page-item"><a class="page-link" href="#">3</a></li>
+				  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+			  </div>
+	<div id="copyright">
+		<div class="container">
+			Design: <a href="https://www.facebook.com/euro.hoang.94">HoangPhan</a> 
+		</div>
+	</div>
+</body>
+</html>

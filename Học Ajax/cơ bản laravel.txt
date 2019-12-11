@@ -1,0 +1,24 @@
+﻿composer create-project --prefer-dist laravel/laravel project
+
+chạy random key bảo mật : php artisan key:generate
+	
+chạy server : php artisan serve 
+
+tạo chức năng đăng nhập của laravel : 
+
+	composer require laravel/ui --dev .
+        
+	npm install 
+	npm run dev
+
+	php artisan ui vue --auth .
+
+
+chức năng seeder 
+	php artisan make:seeder UsersTableSeeder
+
+chức năng lưu file 
+ 	php artisan storage:link
+
+
+	                               

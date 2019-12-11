@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='result'></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+            var items = JSON.parse(xhr.responseText);
+            var output = "<ul>";
+                for (var index in items) {
+                    output += "<li>" + items[index].name + "</li>";
+                    output += "<li>" + items[index].price + "</li>";
+                    output += '<div>' + '<img class="image_tattoo" src="'+items[index].image+'"' + '</div>';
+                }
+                output += "</ul>";
+                document.getElementById("result").innerHTML = output;
+            }
+        };
+        xhr.open("GET", "data.json");
+        xhr.send();    
+
+    //     getTattoo(name,price,description,image){
+    //     var obj= {
+    //         name:name,
+    //         price:price,
+    //         description:description,
+    //         image:image
+    //     };
+    //     array.push(obj);
+    // }
+
+
+//     var array = [];
+
+// let tt1 = new Tattoo();
+// // tt1.getTattoo('hoàng','10000','đâsdasdsa','../images_tattoo/tatoo01.png');
+// // tt1.getTattoo('hoàng','10000','đâsdasdsa','../images_tattoo/tatoo02.png');
+// // tt1.getTattoo('hoàng','10000','đâsdasdsa','../images_tattoo/tatoo03.png');
+// tt1.getTattoo('Sexy Tattoo','35','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo04.png');
+// tt1.getTattoo('Tattoo Legs','39','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo05.png');
+// // tt1.getTattoo('hoàng','10000','đâsdasdsa','../images_tattoo/tatoo06.png');
+// tt1.getTattoo('Fake Tattoo custom','91','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo07.png');
+// tt1.getTattoo('Tattoo Trend','47','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo08.png');
+// tt1.getTattoo('Back Tattoo','112','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo09.png');
+// tt1.getTattoo('The Red Dot','102','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo10.png');
+// tt1.getTattoo('Wing Tattoo','87','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo11.png');
+// tt1.getTattoo('Perfektes','65','A traumatic tattoo occurs when a substance','../images_tattoo/tatoo12.png');
+// var myJSON = JSON.stringify(array);
+// console.log(myJSON);
+
+// function displayItems()
+// {
+//     let text = '';
+//     for (let i=0;i<array.length;i++) {
+//         text+= '<div class="3u">'
+//         text += ' <section>';
+//         text += '<div>' + '<img class="image_tattoo" src="'+array[i].image+'"' + '</div>';
+//         text += '<h2 style="text-align:center">' + array[i].name +'</h2>';
+//         text += '<div style="text-align:center">' + array[i].description +'</div>';
+//         text += '<p style="text-align:right">' + array[i].price +'$'+'</p>';
+//         text += '<div style="text-align:right" id="tdEdit'+ (i) +'">' + "<button id='btnEdit"+i+"' onclick='editItem("+ i +",\"" + array[i].name + "\");' class='btn btn-primary bg-info border-0 btnEdit'>Edit</button>";
+//         text += "<button id='btnDel" + i + "' onclick='deleteItem(" + i + ")'class='btn btn-primary bg-danger border-0 btnDel'>Delete</button>" +'</div>';
+//         text += '</section>';
+//         text+= '</div>'
+//     }
+//     document.getElementById("name").innerHTML = text;
+// }
+
+// class Tattoo
+// {
+//     constructor(name,price,description,image){
+//         this.name=name;
+//         this.price=price;
+//         this.description=description;
+//         this.image=image;
+//     }
+// }
+    </script>
+</body>
+</html>

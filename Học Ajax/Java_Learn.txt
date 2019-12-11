@@ -1,0 +1,49 @@
+﻿Các kiểu dữ liệu trong java: 
+    - kiêu nguyên : int , short, long, byte;
+		+int: 
+    - kiểu
+Hằng số : từ khóa final (ko thể gán lại)
+
+Các kí tự có chức năng đặc biệc:
+   \n: cho phép xuống dòng
+   \b:xóa bỏ một kí tự từ cuối dãy 
+   \":tạo dấu nháy kép
+   \\:tạo dấu xuyệt
+   \t: tương đương 1 tab ngang
+
+Các loại toán tử : 
+
+ toán tử logic: && |(hoặc) !
+ toán tử ba ngôi expression ? x : y
+ toán tử số học: + - * / %
+ toán tử gán: =   *=   -=   +b   %=
+ toán tử tăng/giảm : x++ --x ++x x--
+ toán tử so sánh: > < >= <= == !=
+--- thứ tự ưu tiên
+
+String (bất biến .. ko thể thay đổi được..mọi thay đổi đồng nghĩa với tạo mới)
+   . ko phân biệt hoa thường .equalsIgnoreCase()
+   . giới thiệu các phương thức của lớp string: 
+        https://www.youtube.com/watch?v=CnVPR_72gCI&list=PLE1qPKuGSJaB4DMiP4wYbLjfszqKg89lL&index=19
+
+Các phương thức của lớp Math :
+ Math.pow (bình phương)
+ Math.random(ngẫu nhiên) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

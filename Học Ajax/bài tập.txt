@@ -1,0 +1,7 @@
+﻿cho 1 lớp hình học 
+chứ các phương thức vẽ hình tròn , hình vuông , hình chữ nhật 
+phương thức tính diện tích hình tròn , hình vuông , hình chữ nhật 
+
+
+ở main ..bg
+set giá trị , in ra diện tích 3 hình

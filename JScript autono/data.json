@@ -1,0 +1,101 @@
+{
+  "tattoo": [
+    {
+      "name": "Tattoo Legs",
+      "price": "45",
+      "description": "A traumatic tattoo occurs when a substance",
+      "image": "../images_tattoo/tatoo05.png",
+      "id": 1
+    },
+    {
+      "name": "Fake Tattoo custom",
+      "price": "91",
+      "description": "fsdfsdfdsfds",
+      "image": "../images_tattoo/tatoo07.png",
+      "id": 2
+    },
+    {
+      "name": "Fake Tattoo custom",
+      "price": "23",
+      "description": "A traumatic tattoo occurs when a substance",
+      "image": "../images_tattoo/tatoo12.png",
+      "id": 3
+    },
+    {
+      "name": "Tattoo Trend",
+      "price": "95",
+      "description": "A traumatic tattoo occurs when a substance",
+      "image": "../images_tattoo/tatoo08.png",
+      "id": 4
+    },
+    {
+      "name": "Back Tattoo",
+      "price": "112",
+      "description": "faefssf when a substance",
+      "image": "../images_tattoo/tatoo09.png",
+      "id": 5
+    },
+    {
+      "name": "The Red Dot",
+      "price": "102",
+      "description": "A traumatic tattoo occurs when a substance",
+      "image": "../images_tattoo/tatoo10.png",
+      "id": 6
+    },
+    {
+      "name": "Wing Tattoosadasdas",
+      "price": "2321",
+      "description": "A traumatic sdadasádsasdas occurs when a substance",
+      "image": "../images_tattoo/tatoo11.png",
+      "id": 7
+    },
+    {
+      "name": "Wing Tattoo",
+      "price": "85",
+      "description": "A traumatic sdadasdas occurs when a substance",
+      "image": "../images_tattoo/tatoo02.png",
+      "id": 8
+    },
+    {
+      "name": "A traumatic",
+      "price": "85",
+      "description": "A traumatic sdadasdas occurs when a substance",
+      "image": "../images_tattoo/tatoo01.png",
+      "id": 9
+    },
+    {
+      "name": "Occurs when",
+      "price": "85",
+      "description": "A traumatic sdadasdas occurs when a substance",
+      "image": "../images_tattoo/tatoo13.png",
+      "id": 10
+    },
+    {
+      "name": "dsasadas",
+      "price": "2`312",
+      "description": "A traumatic sdadasdas occurs when a substance",
+      "image": "../images_tattoo/tatoo14.png",
+      "id": 11
+    }
+  ],
+  "user": [
+    {
+      "id": 0,
+      "username": "phan thiên hoàng",
+      "email": "phanthienhoang95@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 1,
+      "username": "Lê Tường Phúc",
+      "email": "phuc.le@codegym.com",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "username": "Lê Quốc Khánh",
+      "email": "khanh.le@codegym.com",
+      "password": "123456789"
+    }
+  ]
+}

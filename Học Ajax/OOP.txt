@@ -1,0 +1,4 @@
+﻿note :
+  phương thức khởi tạo có access modifier bằng hoặc lớn hơn 
+  
+ * b
